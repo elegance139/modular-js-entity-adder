@@ -1,0 +1,51 @@
+.elegance-container{
+	background: blue;
+	margin:auto 15px;
+	font-family: helvetica;
+	border-radius : 15px;
+}
+.header {
+	text-align : center;
+}
+.module-people-adder {
+	margin : 15px auto;
+	text-align:center;
+	float:left;
+	width:100%;
+}
+.module-people-adder input#people-name {
+	width: 25%;
+	padding:10px;
+	border-radius: 5px;
+	background-color: #0001;
+}
+.module-people-adder .button{
+	background: grey;
+	border-radius: 6px;
+	padding: 10px;
+	margin : 15px;
+	cursor : pointer;
+}
+.module-people-adder .button:hover{
+	background: white;
+}
+.module-people-adder .half-block {
+	float: left;
+	width: 46%;
+	margin:auto 2%;
+	border-radius:5px;
+	background-color: red;
+	-moz-box-shadow: 0 0 3px #ccc;
+	-webkit-box-shadow: 0 0 3px #ccc;
+	box-shadow: 0 0 3px #ccc;
+}
+.module-people-adder ul#display-ul {
+	list-style: none;
+	list-style-type: none;
+	min-height:150px;
+	max-height:150px;
+	overflow-y: scroll;
+	width:90%;
+	background-color: white;
+	margin-left:10px;
+}
